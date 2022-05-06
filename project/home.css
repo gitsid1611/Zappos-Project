@@ -169,6 +169,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+  
 }
 #slider{
     height: 35px;
