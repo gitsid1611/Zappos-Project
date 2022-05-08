@@ -1,0 +1,258 @@
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+    list-style: none;
+
+}
+
+section{
+    font-size: 14px;
+}
+section h3{
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color:#07787e;
+    
+}
+li{
+   
+    margin-left: -18% ;
+}
+#container{
+    width: 95%;
+    padding: 20px;
+}
+#headrow{
+    display: grid;
+    grid-template-columns: 30% 20%;
+    grid-template-rows: auto;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+#headrow>div>p{
+    margin-bottom: 22px ;
+    margin-top: -15px;
+ }
+
+#sort{
+    margin-top: -20%;
+    padding: 10px 20px;
+    border: 1px solid rgb(134, 133, 133);
+    border-radius: 5px ;
+    font-size: 14px;
+}
+#loginToseeSaves{
+    font-size: 14px;
+    width: 80%;
+   
+    padding: 5px;
+    background: #f2f7f6;
+}
+#loginToseeSaves>p{
+    margin: -0px;
+    color: #07787e;
+}
+#loginToseeSaves p:nth-child(1){
+    font-weight: 500;
+}
+#filters_products{
+    display: grid;
+    grid-template-columns: 15% 83%;
+    grid-template-rows:auto;
+    gap: 5%;
+}
+#products{
+    
+   
+    padding: 5px 20px;
+}
+#product_type,#brand_type{
+    margin-top: -5%;
+        font-size: 16px;
+        padding: 10px;
+        border: 2px solid rgb(211, 210, 210);
+      
+}
+#items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap:30px;
+
+}
+#items img{
+    width: 100%;
+    padding: 5px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   
+    
+}
+
+#items>div>div{
+  
+    
+  padding-left: 3%;
+  padding-top: -2%;
+  margin-top: -10%;
+   
+   
+
+
+}
+#items>div>div>p{
+    font-size: 15px;
+    margin-top: -5%;
+   
+   
+ 
+}
+
+#items>div>div>div{
+    margin-top: -10%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    
+
+}
+#items>div>div>div>p:nth-child(1){
+    padding-top: -5px;
+    width: 30%;
+    color: red;
+   
+    
+}
+#items>div>div>div>p:nth-child(2){
+    color: gray;
+    font-size: 13px;
+   
+}
+#clothsid{
+    color: #003953;
+    cursor: pointer;
+}
+#clothsid:hover{
+    color:#07787e
+}
+#shoesid{
+    color: #003953;
+    cursor: pointer;
+}
+#shoesid:hover{
+    color:#07787e
+}
+#slipperid{
+    color: #003953;
+    cursor: pointer;
+}
+#slipperid:hover{
+    color:#07787e
+}
+#sneakerid{
+    color: #003953;
+    cursor: pointer;
+}
+#sneakerid:hover{
+    color:#07787e
+}
+#luckyli{
+    color: #003953;
+    cursor: pointer;
+}
+#luckyli:hover{
+    color:#07787e
+}
+#TheNorthFaceli{
+    color: #003953;
+    cursor: pointer;
+}
+#TheNorthFaceli:hover{
+    color:#07787e
+}
+#NewBalanceli{
+    color: #003953;
+    cursor: pointer;
+}
+#NewBalanceli:hover{
+    color:#07787e
+}
+#UGGli{
+    color: #003953;
+    cursor: pointer;
+}
+#UGGli:hover{
+    color:#07787e
+} */
+#under50{
+    color: #003953;
+    cursor: pointer;
+}
+#under50:hover{
+    color:#07787e
+}
+#under100{
+    color: #003953;
+    cursor: pointer;
+}
+#under100:hover{
+    color:#07787e
+}
+#under200{
+    color: #003953;
+    cursor: pointer;
+}
+#under200:hover{
+    color:#07787e
+}
+#over200{
+    color: #003953;
+    cursor: pointer;
+}
+#over200:hover{
+    color:#07787e
+}
+#blackli{
+    color: #003953;
+    cursor: pointer;
+}
+#blackli:hover{
+    color:#07787e
+}
+#blueli{
+    color: #003953;
+    cursor: pointer;
+}
+#blueli:hover{
+    color:#07787e
+}
+#Whiteli{
+    color: #003953;
+    cursor: pointer;
+}
+#whiteli:hover{
+    color:#07787e
+}
+#brownli{
+    color: #003953;
+    cursor: pointer;
+}
+#brownli:hover{
+    color:#07787e
+}
+.idli{
+    color: #003953;
+    cursor: pointer;
+}
+.idli:hover{
+    color:#07787e
+}
+#name:hover,#desc:hover{
+    cursor:pointer;
+    color:#07787e;
+}
+
+
