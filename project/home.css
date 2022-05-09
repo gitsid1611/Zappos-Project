@@ -1105,3 +1105,11 @@ ol>li{
     margin-left: 15px;
 }
 /*-----------------------------------------------------FOOTER END-------------------------------------------------------*/
+.anchor{
+    text-decoration: none;
+    color: #005579;
+}
+.anchor2{
+    text-decoration: none;
+    color: #1F1F1F;
+}
