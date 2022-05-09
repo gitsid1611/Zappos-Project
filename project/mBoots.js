@@ -223,7 +223,7 @@ function display(arr)
       ffg.className="rating";
 
       var ree = document.createElement("button");
-      ree.className="boo"
+      ree.className="bo1"
 
     //   ree.addEventListener("click",pwe)
       var muu = document.createElement("i");
@@ -232,6 +232,7 @@ function display(arr)
       muu.style.position="relative"
       muu.style.background="transparent";
       muu.style.border="none";
+      muu.style.width="auto"
       muu.style.outline="none";
       muu.style.color="red"
       

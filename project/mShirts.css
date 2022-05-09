@@ -82,10 +82,10 @@ url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Play
     justify-content: center;
     align-items: center;
 }
-#third1>img{
-    height: 75%;
-    width: 70%;
-    
+#third1>a>img{
+    height: 60%;
+    width: 60%;
+    margin-left: 20%;
 }
 #third2{
     height: 100%;
@@ -131,6 +131,8 @@ url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Play
 #third3>input:hover{
     background-color:rgb(187, 247, 187);
 }
+
+/*------------------------------------------------------------------------------------*/
 #menu{
     height: 46px;
     width: 100%;
@@ -140,28 +142,94 @@ url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Play
 #menu1{
     height: 96%;
     width: 60%;
-
     display: flex;
+}
+#main_menu
+{
+	background-color:rgb(241, 238, 238);
+	float:left;
+	padding:0px;
+	width:800px;
+	height:40px;
+	line-height:50px;
+	border-radius:5px;
+    margin-top: 1px;
+}
+#main_menu >.main_list
+{
+	color: #003953;
+	list-style-type:none;
+	float:left;
+    font-weight: bolder;
+    font: 17px "Open Sans",sans-serif ;
+    margin-top: 2%;
+	border-left:1px solid #666;
+	padding-left:27px;
+	padding-right:27px;
+ 
+	
+}
+#main_menu .main_list:hover
+{
+	color:#2E9AFE;
+}
+.main_list ul
+{
+	background-color:white;
+	height: 300px;
+	position:absolute;
+	width:670px;
+	padding:0px;
+	float:left;
+	padding-bottom:10px;
     
 }
-#menu1>div{
-    height: 100%;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 13px;
-    border: 0px;
+.main_list>ul >p
+{
+	color:white;
+	background-color:#2E9AFE;
+	margin:0px;
+	text-align:left;
+	padding-left:10px;
+	font-size:30px;
+	font-weight:bold;
+    
 }
-#menu1>div>select{
-    height: 40px;
-    width: auto;
-    font-size: 18px;
-    font-weight: bold;
-    background-color:  rgb(241, 238, 238);
-    border: 0px;
+.main_list>ul>ol
+{
+	float:left;
+	padding:0px;
+	list-style-type:none;
+	margin-left:30px;
+}
+.main_list >ul>ol >li
+{
+	line-height:25px;
+	font-weight:bold;
+	font: 12px  "Open Sans",sans-serif ;
+	color:#2E9AFE;
     color: #003953;
 }
+.main_list >ul >ol >li:first-of-type 
+{
+    list-style: none;
+    font-size:19px;
+	margin-top:10px;
+	color:#020270;
+}
+.main_list:hover ul
+{
+	display:block;
+}
+.main_list ul
+{
+	display:none;
+}
+ol>li{
+    margin-top: 10%;
+}
+/*=================================================================*/
+
 #new1{
      padding-left: 2%;
 }
@@ -180,6 +248,22 @@ url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Play
     height: 35px;
     width: 100%;
     background-color:#E5F1F8;
+}
+.anchor{
+    text-decoration: none;
+    color: #005579;
+}
+.anchor2{
+    text-decoration: none;
+    color: #1F1F1F;
+}
+.ano{
+    text-decoration: none;
+    color: #005579;
+}
+#ani{
+    text-decoration: none;
+    color: #003953
 }
 #container
 {

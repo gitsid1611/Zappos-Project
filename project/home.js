@@ -23,6 +23,7 @@ function pro()
 
 
 
+
 document.querySelector("#sign").addEventListener("click", display);
 
 document.querySelector("#sign").style.cursor="pointer";
@@ -38,7 +39,7 @@ function display(){
 
             document.querySelector("#sign").addEventListener("click", logout);
 
-            window.location.reload(home.html)
+            window.location.reload(index.html)
         }
 
 
