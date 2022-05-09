@@ -99,13 +99,15 @@
     border-top-left-radius: 3%;
     border-bottom-left-radius: 3%;
 }
+
 #third2>#search1{
     height: 47%;
-    width: 15%;
+    width: 20%;
     font-size: 15px;
     font-weight: bold;
     color: white;
     background-color: #003953;
+    margin-right: -40px;
 }
 #third3{
     height: 100%;
