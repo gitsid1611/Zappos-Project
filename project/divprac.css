@@ -1,0 +1,178 @@
+/* sid css */
+
+#cotiner{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width:60%;
+    background-color: white;
+    margin:auto;
+    height: 600px;
+    /* /* display:none; */
+    /* z-index: 1; */ 
+    position:fixed;
+    top:10vh;
+    left:22%;
+    z-index: 1;
+    display: none;
+    
+  
+}
+
+
+
+#sign_head{
+    height:50px;
+    
+    display:flex;
+    justify-content: space-between;
+
+}
+
+
+#clickblock{
+    cursor: pointer;
+}
+
+#sign_head>div{
+   
+    height:50px;
+    width:80px;
+}
+h3{
+    text-align: center;
+}
+hr{
+    background-color: grey;
+}
+
+
+#second_con{
+    height:500px;
+    display:flex;
+    width:90%;
+    
+    margin:auto;
+   
+}
+
+#second_con>div{
+    width:350px;
+    height:500px;
+    margin: auto;
+    
+}
+
+#second_con>hr{
+    height: 400px;
+}
+
+#col{
+    width:460px;
+    height:780px;
+}
+
+.row1{
+    height:50px;
+    display: flex;
+    border:3px solid  #003953;;
+    padding-left:40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+
+}
+
+#close{
+    margin-bottom: 30px;
+}
+
+div+img{
+    width:10%;
+    height:20px;
+
+}
+
+.img1{
+    height:20px;
+   padding-top: 20px;
+    
+}
+img+a{
+    margin-left: 10px;
+}
+
+
+.row1>a{
+    text-decoration: none;
+    padding-top: 18px;
+    touch-action: manipulation;
+    transition: all .3s ease 0s;
+    font-size: 14px;
+    font-family: sans-serif;
+    height: 36px;
+    width:451px;
+    position:static;
+    cursor: pointer;
+    color: #003953;
+  
+}
+
+.row1:hover{
+    background-color: blue;
+  
+    
+}
+.row1>a:hover{
+    color:white;
+    background-color: transparent;
+
+}
+
+
+/* breakaer */
+
+.breaker{
+    display:flex;
+    width:100%;
+    margin: auto;
+
+}
+
+.breaker>div{
+    width:45%;
+    margin:auto;
+}
+
+#agreem{
+    margin-top: 80px;
+}
+#agreem>p{
+    margin-left:60px;
+}
+p+a{
+    margin-left:60px;
+
+}
+
+
+/* col3 */
+
+#col3>div{
+    margin-top:20px;
+}
+
+
+#col3>div+h3{
+    font-size: 18px;
+    font-family: Open Sans,sans-serif;
+    width:386px;
+    height:96px;
+    color: #1f1f1f;
+}
+
+li{
+    margin-top: 30px;
+
+}
+
+
+/* sid parts end */

@@ -1,0 +1,489 @@
+@import
+url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Playfair+Display&family=Poppins:wght@300&family=Roboto+Slab:wght@500&family=Supermercado+One&display=swap");
+
+
+
+
+#first{
+    height: 36px;
+    width:100%;
+    display: flex;
+}
+
+#first>div>img{
+    height: 80%;
+    width: 40%;
+    margin-top: 3px;
+}
+#first1{
+    height: 99%;
+    width: 10%;
+    background-color: #0076bd;
+    text-align: center;
+    align-items: center;
+    padding: auto;
+}
+#first2{
+    height: 95%;
+    width: 10%;
+    background-color: white;
+    border: 1px solid rgb(179, 177, 177);
+    text-align: center;
+    align-items: center;
+    padding: auto;
+}
+#first3{
+    height: 100%;
+    width:80%;
+    background-color: white;
+}
+#sec{
+    height: 34px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    text-align: center;  
+    background-color: #0076bd;
+}
+#sec1{
+    height: 100%;
+    width:17%;
+   
+    
+}
+#sec1>#Customer{
+    background-color: #0076bd;
+    height: 100%;
+    width: 80%;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    border: 0px ;
+    
+}
+#sec2{
+    height: 100%;
+    width:83%;
+    font-size: 18px;
+    color: white;
+    text-align: right;
+    margin-top: 14px;
+    padding-right: 25px;   
+}
+#third{
+    height: 90px;
+    width: 100%;
+    display: flex;
+}
+#third1{
+    height: 100%;
+    width: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#third1>a>img{
+    height: 60%;
+    width: 60%;
+    margin-left: 20%;
+}
+#third2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+}
+#third2>#search{
+    height: 40%;
+    width: 80%;
+    font-size: 18px;
+    padding-left: 2%;
+    border: 1px solid rgb(165, 163, 163);
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+}
+#third2>#search1{
+    height: 47%;
+    width: 15%;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #003953;
+}
+#third3{
+    height: 100%;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 23%;
+}
+#third3>input{
+    height: 50%;
+    width: 72%;
+    background-color: white;
+    border: 1px solid rgb(5, 226, 5);
+    border-radius: 10%;
+    font-weight: bold;
+}
+#third3>input:hover{
+    background-color:rgb(187, 247, 187);
+}
+
+/*------------------------------------------------------------------------------------*/
+#menu{
+    height: 46px;
+    width: 100%;
+    background-color: rgb(241, 238, 238);
+    display: flex;
+}
+#menu1{
+    height: 96%;
+    width: 60%;
+    display: flex;
+}
+#main_menu
+{
+	background-color:rgb(241, 238, 238);
+	float:left;
+	padding:0px;
+	width:800px;
+	height:40px;
+	line-height:50px;
+	border-radius:5px;
+    margin-top: 1px;
+}
+#main_menu >.main_list
+{
+	color: #003953;
+	list-style-type:none;
+	float:left;
+    font-weight: bolder;
+    font: 17px "Open Sans",sans-serif ;
+    margin-top: 2%;
+	border-left:1px solid #666;
+	padding-left:27px;
+	padding-right:27px;
+ 
+	
+}
+#main_menu .main_list:hover
+{
+	color:#2E9AFE;
+}
+.main_list ul
+{
+	background-color:white;
+	height: 300px;
+	position:absolute;
+	width:670px;
+	padding:0px;
+	float:left;
+	padding-bottom:10px;
+    
+}
+.main_list>ul >p
+{
+	color:white;
+	background-color:#2E9AFE;
+	margin:0px;
+	text-align:left;
+	padding-left:10px;
+	font-size:30px;
+	font-weight:bold;
+    
+}
+.main_list>ul>ol
+{
+	float:left;
+	padding:0px;
+	list-style-type:none;
+	margin-left:30px;
+}
+.main_list >ul>ol >li
+{
+	line-height:25px;
+	font-weight:bold;
+	font: 12px  "Open Sans",sans-serif ;
+	color:#2E9AFE;
+    color: #003953;
+}
+.main_list >ul >ol >li:first-of-type 
+{
+    list-style: none;
+    font-size:19px;
+	margin-top:10px;
+	color:#020270;
+}
+.main_list:hover ul
+{
+	display:block;
+}
+.main_list ul
+{
+	display:none;
+}
+ol>li{
+    margin-top: 10%;
+}
+/*=================================================================*/
+
+#new1{
+     padding-left: 2%;
+}
+#sign{
+    height: 96%;
+    width: 12%;
+    font-size: 18px;
+    margin-left: 24%;
+    color: #003953;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#slider{
+    height: 35px;
+    width: 100%;
+    background-color:#E5F1F8;
+}
+.anchor{
+    text-decoration: none;
+    color: #005579;
+}
+.anchor2{
+    text-decoration: none;
+    color: #1F1F1F;
+}
+.ano{
+    text-decoration: none;
+    color: #005579;
+}
+#ani{
+    text-decoration: none;
+    color: #003953
+}
+#container
+{
+    margin-left: 24px;
+    font-size: 30px;
+    padding: 0px 12px;
+    color: #1F1F1F;
+    font-family: 'Open Sans', sans-serif; 
+
+
+}
+#Category{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 170px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: lighter;
+
+}
+#Brand{
+    margin-bottom: -250px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 170px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: lighter;
+}
+#Colour{
+    margin-top: 250px;
+    width: 170px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: lighter;
+}
+#Features{
+    margin-top: 250px;
+    text-decoration: none;
+    width: 170px;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: lighter;
+}
+#ReLevance{
+    margin-left: 1100px;
+    background-color: #1F1F1F;
+    color: #ccc;
+
+    
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: lighter;
+    
+    
+
+
+    
+}
+#putting{
+    margin-left: 1100px;
+   
+    
+    font-size: 20px;
+    margin-bottom: -20px;
+
+    
+
+}
+#iio{
+    height: auto;
+    width: 85%;
+    margin-top: -890px;
+    
+    margin-left: 200px;
+    display: grid;
+    grid-template-rows: repeat(5,auto);
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+#cs{
+    
+    width: 15%;
+    margin-top: 150px;
+    height: 120px;
+
+}
+#fee{
+
+    
+    width: 15%;
+    margin-top: 150px;
+    height: 120px;
+}
+#colo{
+
+    width: 15%;
+    margin-top: 150px;
+    height: 120px;
+
+}
+.class{
+    
+    height: 520px;
+    width: 200px;
+
+}
+.brand{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif; 
+    margin-left: 10px;
+
+}
+.guu{
+
+    width: 3px;
+    height: auto;
+    position: absolute;
+    margin-top: 20px
+
+}
+.para{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif; 
+    margin-left: 10px;
+    margin-top: -20px;
+    line-height: 16px;
+    
+
+    
+}
+.boo{
+    position: absolute;
+    margin-top: 40px;
+}
+.rating{
+    display: flex;
+    margin-left: 70px;
+    flex-direction: row-reverse;
+    
+    top: 20px;
+     
+    transform: translate(-50% ,-50%);
+}
+.rating label{
+    display: block;
+    
+    cursor: pointer;
+    width: 50px;
+    background: #ccc;
+
+}
+
+.rating label::before{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: relative;
+    display: block;
+    font-size: 20px;
+    color: white;
+    
+}
+.rating input{
+    display: none;
+}
+.rating label:after{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 20px;
+    color: goldenrod;
+    
+    top:0;
+    opacity: 0;
+    transition: .5s;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+.rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:checked ~ label:after
+{
+    opacity: 1;
+}
+.pr{
+    margin-top: 37px;
+    margin-left: 10px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: bold;
+
+
+
+}
+.image{
+    margin-left: 20px;
+
+}
+.filter{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: bold;
+
+}
+.brand:hover{
+    cursor: pointer;
+    color: rgb(92, 92, 255);
+    text-decoration: underline;
+
+}
+.para:hover{
+    cursor: pointer;
+    color: rgb(92, 92, 255);
+    text-decoration: underline;
+
+
+}
