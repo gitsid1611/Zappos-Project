@@ -414,6 +414,11 @@ function display(data){
         
     })
 }
+function cartfun(elem){
+  console.log(elem)
+localStorage.setItem("cartData",JSON.stringify(elem))
+window.location.href="cart.html"
+}
 
 function cartfun(elem){
   console.log(elem)

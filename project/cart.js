@@ -47,7 +47,12 @@ col.innerText="Color: "+data.color
 
 var bttn=document.createElement("button")
 bttn.id="bttn"
-bttn.innerText="Add to Cart"
+bttn.innerText="Add to Cart";
+bttn.addEventListener("click",function(){
+  addtocartFun(data)
+})
+
+
 
 
 var para2=document.createElement("p")
@@ -68,6 +73,9 @@ img2.src="https://www.zappos.com/marty-assets/amazon-prime.2821774c351a0e9079f23
   box.append(image,box2,)
   items.append(box)
 
+}
+function addtocartFun(elem){
+  alert("Product has been successfully added to your cart ")
 }
 
 

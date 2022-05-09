@@ -244,6 +244,10 @@ function display(data){
         var box2=document.createElement("div")
         var name=document.createElement("h4")
         name.innerText=elem.name;
+        name.id="name"
+        name.addEventListener("click",function(){
+          cartfun(elem)
+        })
         var desc=document.createElement("p")
       desc.innerText=elem.desc;
 
@@ -266,6 +270,11 @@ function display(data){
 
         
     })
+}
+function cartfun(elem){
+  console.log(elem)
+localStorage.setItem("cartData",JSON.stringify(elem))
+window.location.href="cart.html"
 }
 var selected=document.querySelector("#sort")
 selected.addEventListener("change",sortfun)
