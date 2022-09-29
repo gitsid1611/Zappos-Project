@@ -43,7 +43,7 @@ GitHub
 - GitHub: [@gucci1909](https://github.com/gucci1909)
 
 
-👤 **Surendra Kumar878**
+👤 **Sudhirkumar Shukla**
 
 - GitHub: [@gitsid1611](https://github.com/gitsid1611)
 
